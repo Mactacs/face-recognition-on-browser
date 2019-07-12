@@ -1,7 +1,7 @@
 # Realtime face-recognition-on-browser using webcam
 Real-time face recognition on browser using face-api.js. You can add faces to recognize and store it in json file for future use.
 
-Requirements : \n
+Requirements : 
 	1.) PHP 5 or PHP 7
  	2.) Functional Webcam
   	3.) Browser (Google Chrome, Mozilla Firefox)
