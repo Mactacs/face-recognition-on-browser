@@ -12,3 +12,7 @@
 #####  	2.) Extract the zip file downloaded.
 ##### 	3.) Since I am using linux, place all files in /var/www/html directory.
 #####  	4.) Finish. You can now test the project by accessing http://localhost to your local browser.
+
+
+
+###### For more info visit https://github.com/justadudewhohacks/face-api.js
