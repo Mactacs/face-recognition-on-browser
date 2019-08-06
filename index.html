@@ -187,11 +187,18 @@
                 const drawBox = new faceapi.draw.DrawBox(box, { label: result.toString() })
                 drawBox.draw(canvas)
                 var str = result.toString()
+                rating = parseFloat(str.substring(str.indexOf('(') + 1,str.indexOf(')')))
                 str = str.substring(0, str.indexOf('('))
                 str = str.substring(0, str.length - 1)
                 if(str != "unknown"){
-                  $("#logname").html(str)
-                  $("#prof_img").attr('src',"http://localhost/data/" + str + "/image0.png")
+                  if(rating < 0.5){
+                        if(str == $("#log_name").text()){
+                            console.log("Match TRUE!")
+                            match = true;
+                            //$("#logname").html(str)
+                            //$("#prof_img").attr('src',"http://localhost/data/" + str + "/image0.png")
+                        }
+                    }  
                 }
             })
             //---------------------------------------------------------------------  
