@@ -4,7 +4,7 @@
 
 ## Requirements : 
    - PHP 5 or PHP 7
- 	- Functional Webcam
+   - Functional Webcam
    - Browser (Google Chrome, Mozilla Firefox)
 
 ## Steps :
