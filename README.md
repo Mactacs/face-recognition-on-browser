@@ -10,7 +10,7 @@
 ## Steps :
   	- Download the project.
   	- Extract the downloaded zip file.
- 	- Since I am using linux, I place all files in /var/www/html directory.
+ 	- Since I am using linux, I placed all files in /var/www/html directory.
   	- Finish. You can now test the project by accessing http://localhost to your local browser.
 
 
